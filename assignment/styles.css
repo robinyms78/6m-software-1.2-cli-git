@@ -1,34 +1,53 @@
-body {
-  justify-content: center;
-  background-color: aqua;
-}
-
-h1 {
-  background-color: greenyellow;
-  text-align: center;
-}
-
-p, a {
-  text-align: center;
-  font-size: 32px;
-}
-
 .container {
+  display: flex; /* Use flex display property */
+  flex-direction: column; /* Display each section using column */
+  justify-content: center; /* Justify all content to center */
+  background-color: rgba(
+    0,
+    255,
+    255,
+    0.3
+  ); /* Set background image to light blue with opacity 0.3 */
   text-align: center; /* Center the image horizontally */
 }
-img {
-  display: inline-block; /* Ensure the image behaves as an inline element */
-  height: 200px;
-  width: 300px;
+h1 {
+  background-color: rgb(
+    161,
+    255,
+    47,
+    0.5
+  ); /* Set background colour of heading to greenyellow with opacity 0.5 */
 }
 
-.section {
-    font-size: 20;
+p,
+a {
+  font-size: 24px; /* Set font-size of each paragraph to 24px */
+}
+
+img {
+  display: inline-block; /* Ensure the image behaves as an inline element */
+  height: 200px; /* Set height of each image to 200px */
+  width: 300px; /* Set width of each image to 300 px */
+}
+
+ul {
+  display: flex;
+  justify-content: center; /* Align items to the center */
+  text-align: left; /* Align the text of list items to the left */
+  flex-direction: column; /* Display each section using column */
+  list-style-type: disc; /* Use list style of type disc */
+  font-size: 24px; /* Set font size to 24px */
+  padding: 0; /* Set padding to 0 */
+}
+
+li {
+  margin-left: 800px; /* Set left margin to 800 to align content to center*/
+  margin-right: 800px; /* Set right margin to 800 to align content to center*/
 }
 
 div {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+  margin-top: 10px; /* Set top margin of each section to 10px */
+  margin-bottom: 10px; /* Set bottom margin of each section to 10px */
+  margin-right: 10px; /* Set right margin of each section to 10px */
+  margin-left: 10px; /* Set left margin of each section to 10px */
 }
