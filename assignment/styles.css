@@ -7,16 +7,17 @@
     255,
     255,
     0.3
-  ); /* Set background image to light blue with opacity 0.3 */
+  ); /* Set background image to light blue with transparency 0.3 */
   text-align: center; /* Center the image horizontally */
 }
+
 h1 {
   background-color: rgb(
     161,
     255,
     47,
     0.5
-  ); /* Set background colour of heading to greenyellow with opacity 0.5 */
+  ); /* Set background colour of heading to greenyellow with transparency 0.5 */
 }
 
 p,
@@ -32,7 +33,6 @@ img {
 
 ul {
   display: flex;
-  justify-content: center; /* Align items to the center */
   text-align: left; /* Align the text of list items to the left */
   flex-direction: column; /* Display each section using column */
   list-style-type: disc; /* Use list style of type disc */
